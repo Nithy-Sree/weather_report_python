@@ -1,7 +1,7 @@
 import requests
 import json
 
-api = "d56c8f69033661adb7ab6298b3df2444"
+api = {OpenWeatherMap Token}
 
 city = input("Enter your city: ")
 url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api}&units=metric"
